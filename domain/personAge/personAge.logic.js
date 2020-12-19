@@ -18,4 +18,4 @@ class PersonAgeLogic extends PersonLogic{
     }
 }
   
-  module.exports = PersonAgeLogic;  
+module.exports = PersonAgeLogic;  

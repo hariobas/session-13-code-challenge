@@ -25,5 +25,4 @@ class PersonLogic{
     }
 }
 
-
 module.exports = PersonLogic;

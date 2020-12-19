@@ -11,3 +11,7 @@ console.log(`Saat ini berumur ${person1.getAge()}`)
 var PersonAgeLogic = require('./domain/personAge/personAge.logic');
 var personAgeLogic = new PersonAgeLogic('Tata', '6403052010930001', '1993-10-20');
 console.log(`Merupakan seorang ${personAgeLogic.age()}`)
+
+var PersonValidateLogic = require('./domain/personValidate/personValidate.logic');
+var personValidateLogic = new PersonValidateLogic('Tata', '6403056010930001', '1993-10-20');
+console.log(`Validate result: ${personValidateLogic.validate()}`)
